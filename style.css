@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #d5e1ef;
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 95%;
+    height: 499px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.qr-card{
+    padding: 16px;
+    text-align: center;
+}
+
+.qr-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+.qr-card-text {
+    margin: 24px 16px 40px 16px;
+}
+
+.qr-card-text h2{
+    
+    line-height: 120%;
+    
+}
+
+
+
+.qr-code-text p {
+    
+    line-height: 140%;
+}
