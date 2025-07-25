@@ -41,15 +41,14 @@ body {
     margin: 24px 16px 40px 16px;
 }
 
-.qr-card-text h2{
-    
-    line-height: 120%;
+.qr-card-text h1{
+    font-size: 1.3rem;
+    line-height: 120%;  
     
 }
 
 
 
-.qr-code-text p {
-    
+.qr-card-text p {
     line-height: 140%;
 }
